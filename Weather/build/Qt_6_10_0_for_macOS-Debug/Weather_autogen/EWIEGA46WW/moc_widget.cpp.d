@@ -1,5 +1,5 @@
-/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/EWIEGA46WW/moc_widget.cpp: /Users/ccy/Desktop/Weather/widget.h \
-  /Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h \
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/EWIEGA46WW/moc_widget.cpp: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \

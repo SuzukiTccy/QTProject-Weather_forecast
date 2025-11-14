@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/ccy/Desktop/Weather/build/Weather_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
+	"BUILD_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather",
 	"CMAKE_EXECUTABLE" : "/Applications/CMake.app/Contents/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/ccy/Desktop/Weather/CMakeLists.txt",
-		"/Users/ccy/Desktop/Weather/build/CMakeFiles/3.26.4/CMakeSystem.cmake",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/CMakeLists.txt",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/3.26.4/CMakeSystem.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake",
-		"/Users/ccy/Desktop/Weather/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeGenericSystem.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake",
@@ -355,25 +355,25 @@
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/GNUInstallDirs.cmake",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
-		"/Users/ccy/Desktop/Weather/Resources/icons/icons.qrc",
-		"/Users/ccy/Desktop/Weather/Resources/images/images.qrc",
-		"/Users/ccy/Desktop/Weather/Resources/weatherIcons/weatypeico.qrc"
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/icons.qrc",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/images/images.qrc",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/weatherIcons/weatypeico.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
+	"CMAKE_SOURCE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"/Users/ccy/Desktop/Weather/widget.h",
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/ccy/Desktop/Weather/build/Weather_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/ccy/Desktop/Weather/build/Weather_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -416,21 +416,29 @@
 		"-c",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/ccy/Desktop/Weather/build/Weather_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/ccy/Applications/Qt/6.10.0/macos/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/ccy/Applications/Qt/6.10.0/macos/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/ccy/Desktop/Weather/main.cpp", "MU", null ],
-		[ "/Users/ccy/Desktop/Weather/widget.cpp", "MU", null ]
+		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

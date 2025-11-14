@@ -54,10 +54,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ccy/Desktop/Weather
+CMAKE_SOURCE_DIR = /Users/ccy/Desktop/QTProject-Weather_forecast/Weather
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ccy/Desktop/Weather/build
+CMAKE_BINARY_DIR = /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/Weather_autogen.dir/clean
 CMakeFiles/Weather.dir/all: CMakeFiles/Weather_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ccy/Desktop/Weather/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Weather"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Weather"
 .PHONY : CMakeFiles/Weather.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Weather.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/Weather/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Weather.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/Weather/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles 0
 .PHONY : CMakeFiles/Weather.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/Weather.dir/clean:
 CMakeFiles/Weather_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather_autogen.dir/build.make CMakeFiles/Weather_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather_autogen.dir/build.make CMakeFiles/Weather_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ccy/Desktop/Weather/build/CMakeFiles --progress-num=11 "Built target Weather_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=11 "Built target Weather_autogen"
 .PHONY : CMakeFiles/Weather_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Weather_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/Weather/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Weather_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/Weather/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles 0
 .PHONY : CMakeFiles/Weather_autogen.dir/rule
 
 # Convenience name for target.
@@ -134,7 +134,7 @@ CMakeFiles/Weather_autogen.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/ccy/Desktop/Weather/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

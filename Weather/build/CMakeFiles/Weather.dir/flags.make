@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers
+CXX_INCLUDES = -I/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6
 

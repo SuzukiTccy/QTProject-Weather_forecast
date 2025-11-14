@@ -3,186 +3,187 @@
 cmake_policy(SET CMP0009 NEW)
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.c++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.c++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.cc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.cc")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.ch")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.ch")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.cpp")
 set(OLD_GLOB
-  "/Users/ccy/Desktop/Weather/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/EWIEGA46WW/moc_widget.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/ZWADCVY5KM/qrc_images.cpp"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/mocs_compilation.cpp"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/EWIEGA46WW/moc_widget.cpp"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/mocs_compilation.cpp"
-  "/Users/ccy/Desktop/Weather/main.cpp"
-  "/Users/ccy/Desktop/Weather/widget.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/EWIEGA46WW/moc_widget.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/ZWADCVY5KM/qrc_images.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/mocs_compilation.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/EWIEGA46WW/moc_widget.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/mocs_compilation.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.cxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.cxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.h")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.h")
 set(OLD_GLOB
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/include/ui_widget.h"
-  "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/include/ui_widget.h"
-  "/Users/ccy/Desktop/Weather/build/Weather_autogen/moc_predefs.h"
-  "/Users/ccy/Desktop/Weather/widget.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/include/ui_widget.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/include/ui_widget.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/moc_predefs.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.h++")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.h++")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.hh")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.hh")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.hpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.hpp")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.hxx")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.hxx")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.java")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.java")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.js")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.js")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.jui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.jui")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.qml")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.qml")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.qrc")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.qrc")
 set(OLD_GLOB
-  "/Users/ccy/Desktop/Weather/Resources/icons/icons.qrc"
-  "/Users/ccy/Desktop/Weather/Resources/images/images.qrc"
-  "/Users/ccy/Desktop/Weather/Resources/weatherIcons/weatypeico.qrc"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/icons.qrc"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/images/images.qrc"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/weatherIcons/weatypeico.qrc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.qs")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.qs")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # _directory_contents at /Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake:55 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/Weather/*.ui")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/*.ui")
 set(OLD_GLOB
-  "/Users/ccy/Desktop/Weather/widget.ui"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/cmake.verify_globs")
 endif()

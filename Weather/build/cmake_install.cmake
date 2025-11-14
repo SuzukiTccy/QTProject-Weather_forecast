@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ccy/Desktop/Weather
+# Install script for directory: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/ccy/Desktop/Weather/build/Weather.app" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather.app" USE_SOURCE_PERMISSIONS)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Weather.app/Contents/MacOS/Weather" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Weather.app/Contents/MacOS/Weather")
     execute_process(COMMAND /usr/bin/install_name_tool
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/ccy/Desktop/Weather/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

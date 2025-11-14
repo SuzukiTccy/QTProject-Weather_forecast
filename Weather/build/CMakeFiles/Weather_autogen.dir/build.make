@@ -53,10 +53,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ccy/Desktop/Weather
+CMAKE_SOURCE_DIR = /Users/ccy/Desktop/QTProject-Weather_forecast/Weather
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ccy/Desktop/Weather/build
+CMAKE_BINARY_DIR = /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build
 
 # Utility rule file for Weather_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/Weather_autogen.dir/compiler_depend.make
 include CMakeFiles/Weather_autogen.dir/progress.make
 
 CMakeFiles/Weather_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/ccy/Desktop/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Weather"
-	/Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Weather"
+	/Applications/CMake.app/Contents/bin/cmake -E cmake_autogen /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather_autogen.dir/AutogenInfo.json Debug
 
 Weather_autogen: CMakeFiles/Weather_autogen
 Weather_autogen: CMakeFiles/Weather_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/Weather_autogen.dir/clean:
 .PHONY : CMakeFiles/Weather_autogen.dir/clean
 
 CMakeFiles/Weather_autogen.dir/depend:
-	cd /Users/ccy/Desktop/Weather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ccy/Desktop/Weather /Users/ccy/Desktop/Weather /Users/ccy/Desktop/Weather/build /Users/ccy/Desktop/Weather/build /Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ccy/Desktop/QTProject-Weather_forecast/Weather /Users/ccy/Desktop/QTProject-Weather_forecast/Weather /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Weather_autogen.dir/depend
 

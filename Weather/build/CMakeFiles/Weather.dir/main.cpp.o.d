@@ -1,5 +1,6 @@
-CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/Weather/main.cpp \
-  /Users/ccy/Desktop/Weather/widget.h \
+CMakeFiles/Weather.dir/main.cpp.o: \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1033,22 +1034,6 @@ CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/Weather/main.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QPoint \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsondocument.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonObject \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonobject.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborvalue.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborcommon.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/quuid.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonArray \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonValue \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonParseError \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QLocale \

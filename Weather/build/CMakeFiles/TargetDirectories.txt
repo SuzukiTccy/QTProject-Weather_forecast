@@ -1,8 +1,8 @@
-/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/edit_cache.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/rebuild_cache.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/list_install_components.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/install.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/install/local.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/install/strip.dir
-/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/edit_cache.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/rebuild_cache.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/list_install_components.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/install.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/install/local.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/install/strip.dir
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles/Weather_autogen.dir

@@ -1,5 +1,5 @@
-/Users/ccy/Desktop/Weather/build/Weather_autogen/EWIEGA46WW/moc_widget.cpp: /Users/ccy/Desktop/Weather/widget.h \
-  /Users/ccy/Desktop/Weather/build/Weather_autogen/moc_predefs.h \
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/EWIEGA46WW/moc_widget.cpp: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -706,11 +706,6 @@
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/ptrcheck.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdarg.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonArray \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonParseError \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonValue \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QPoint \
@@ -741,9 +736,6 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcborcommon.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcborvalue.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qchar.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcheckedint_impl.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
@@ -761,7 +753,6 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
@@ -783,11 +774,6 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qjsonarray.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qjsondocument.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qjsonobject.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qjsonparseerror.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
@@ -813,7 +799,6 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qrect.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qset.h \
@@ -862,7 +847,6 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/quuid.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \

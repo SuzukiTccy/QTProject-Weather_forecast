@@ -9,7 +9,7 @@ CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o: Weather_auto
 
 CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o: Weather_autogen/mocs_compilation.cpp \
   Weather_autogen/EWIEGA46WW/moc_widget.cpp \
-  /Users/ccy/Desktop/Weather/widget.h \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -1048,8 +1048,8 @@ CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o: Weather_autogen/m
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20algorithm.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23type_traits.h
 
-CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/Weather/main.cpp \
-  /Users/ccy/Desktop/Weather/widget.h \
+CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -2089,8 +2089,8 @@ CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/Weather/main.cpp \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QTranslator \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtranslator.h
 
-CMakeFiles/Weather.dir/widget.cpp.o: /Users/ccy/Desktop/Weather/widget.cpp \
-  /Users/ccy/Desktop/Weather/widget.h \
+CMakeFiles/Weather.dir/widget.cpp.o: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QWidget \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qwidget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -3172,8 +3172,6 @@ CMakeFiles/Weather.dir/widget.cpp.o: /Users/ccy/Desktop/Weather/widget.cpp \
 
 Weather_autogen/include/ui_widget.h:
 
-/Users/ccy/Desktop/Weather/widget.cpp:
-
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtranslator.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QTranslator:
@@ -3183,8 +3181,6 @@ Weather_autogen/include/ui_widget.h:
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qapplication.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QApplication:
-
-/Users/ccy/Desktop/Weather/main.cpp:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q23type_traits.h:
 
@@ -3462,6 +3458,8 @@ Weather_autogen/include/ui_widget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h:
 
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__system_error/system_error.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__system_error/error_condition.h:
@@ -3713,6 +3711,8 @@ Weather_autogen/include/ui_widget.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/replace.h:
+
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h:
 
@@ -4610,6 +4610,10 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_size_t.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/iterator.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_u_int64_t.h:
+
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qfontmetrics.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_offsetof.h:
@@ -4707,8 +4711,6 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/_wctype.h:
-
-/Users/ccy/Desktop/Weather/widget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__compare/ordering.h:
 
@@ -4846,6 +4848,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__utility/pair.h:
 
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_size_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h:
@@ -4917,10 +4921,6 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/invoke.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/iterator.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_u_int64_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/execution:
 
@@ -5182,12 +5182,6 @@ Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcomparehelpers.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_function.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
-
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringmatcher.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h:
@@ -5203,6 +5197,18 @@ Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp:
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpixmap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__functional/invoke.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_function.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/copy_cv.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/add_cv_quals.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtpreprocessorsupport.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__cstddef/size_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__configuration/language.h:
 
@@ -5246,15 +5252,13 @@ Weather_autogen/EWIEGA46WW/moc_widget.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h:
 
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtpreprocessorsupport.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/cstdarg:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/type_traits:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__cstddef/size_t.h:
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_assignable.h:
 
@@ -5273,10 +5277,6 @@ Weather_autogen/EWIEGA46WW/moc_widget.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcontainertools_impl.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_signed.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__bit/bit_log2.h:
 

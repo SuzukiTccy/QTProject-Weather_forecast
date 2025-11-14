@@ -1,26 +1,26 @@
 {
-	"BUILD_DIR" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
-	"CMAKE_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
-	"INCLUDE_DIR" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/include",
+	"BUILD_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather",
+	"CMAKE_SOURCE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather",
+	"INCLUDE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/include",
 	"INPUTS" : 
 	[
-		"/Users/ccy/Desktop/Weather/Resources/icons/leaf.ico",
-		"/Users/ccy/Desktop/Weather/Resources/icons/close.ico",
-		"/Users/ccy/Desktop/Weather/Resources/icons/search.ico",
-		"/Users/ccy/Desktop/Weather/Resources/icons/refresh.ico",
-		"/Users/ccy/Desktop/Weather/Resources/icons/location.ico"
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/leaf.ico",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/close.ico",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/search.ico",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/refresh.ico",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/location.ico"
 	],
-	"LOCK_FILE" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Weather_autogen.dir/AutoRcc_icons_NGXW7J3N7T_Lock.lock",
+	"LOCK_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Weather_autogen.dir/AutoRcc_icons_NGXW7J3N7T_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "icons" ],
 	"OUTPUT_CHECKSUM" : "NGXW7J3N7T",
 	"OUTPUT_NAME" : "qrc_icons.cpp",
 	"RCC_EXECUTABLE" : "/Users/ccy/Applications/Qt/6.10.0/macos/libexec/rcc",
 	"RCC_LIST_OPTIONS" : [ "--list" ],
-	"SETTINGS_FILE" : "/Users/ccy/Desktop/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Weather_autogen.dir/AutoRcc_icons_NGXW7J3N7T_Used.txt",
-	"SOURCE" : "/Users/ccy/Desktop/Weather/Resources/icons/icons.qrc",
+	"SETTINGS_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Weather_autogen.dir/AutoRcc_icons_NGXW7J3N7T_Used.txt",
+	"SOURCE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/icons.qrc",
 	"VERBOSITY" : 0
 }
