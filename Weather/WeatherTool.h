@@ -79,5 +79,7 @@ public:
     }
 };
 
+#endif // WEATHERTOOL_H
+
 
 

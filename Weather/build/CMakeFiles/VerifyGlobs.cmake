@@ -54,6 +54,7 @@ set(OLD_GLOB
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/mocs_compilation.cpp"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -78,6 +79,7 @@ set(OLD_GLOB
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/include/ui_widget.h"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/moc_predefs.h"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
