@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/Users/ccy/Desktop/Weather/build/Weather_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/ccy/Desktop/Weather/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
+	"CMAKE_SOURCE_DIR" : "/Users/ccy/Desktop/Weather",
+	"INCLUDE_DIR" : "/Users/ccy/Desktop/Weather/build/Weather_autogen/include",
+	"INPUTS" : [ "/Users/ccy/Desktop/Weather/Resources/images/weaUI.png" ],
+	"LOCK_FILE" : "/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/AutoRcc_images_ZWADCVY5KM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "images" ],
+	"OUTPUT_CHECKSUM" : "ZWADCVY5KM",
+	"OUTPUT_NAME" : "qrc_images.cpp",
+	"RCC_EXECUTABLE" : "/Users/ccy/Applications/Qt/6.10.0/macos/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/ccy/Desktop/Weather/build/CMakeFiles/Weather_autogen.dir/AutoRcc_images_ZWADCVY5KM_Used.txt",
+	"SOURCE" : "/Users/ccy/Desktop/Weather/Resources/images/images.qrc",
+	"VERBOSITY" : 0
+}

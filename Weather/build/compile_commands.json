@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o -c /Users/ccy/Desktop/Weather/build/Weather_autogen/mocs_compilation.cpp",
+  "file": "/Users/ccy/Desktop/Weather/build/Weather_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/main.cpp.o -c /Users/ccy/Desktop/Weather/main.cpp",
+  "file": "/Users/ccy/Desktop/Weather/main.cpp",
+  "output": "CMakeFiles/Weather.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/widget.cpp.o -c /Users/ccy/Desktop/Weather/widget.cpp",
+  "file": "/Users/ccy/Desktop/Weather/widget.cpp",
+  "output": "CMakeFiles/Weather.dir/widget.cpp.o"
+},
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o -c /Users/ccy/Desktop/Weather/build/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp",
+  "file": "/Users/ccy/Desktop/Weather/build/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp",
+  "output": "CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o"
+},
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o -c /Users/ccy/Desktop/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp",
+  "file": "/Users/ccy/Desktop/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp",
+  "output": "CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o"
+},
+{
+  "directory": "/Users/ccy/Desktop/Weather/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/Users/ccy/Desktop/Weather/build/Weather_autogen/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/ccy/Applications/Qt/6.10.0/macos/lib -isystem /Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/ccy/Applications/Qt/6.10.0/macos/include -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.6 -o CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o -c /Users/ccy/Desktop/Weather/build/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp",
+  "file": "/Users/ccy/Desktop/Weather/build/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp",
+  "output": "CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o"
+}
+]
