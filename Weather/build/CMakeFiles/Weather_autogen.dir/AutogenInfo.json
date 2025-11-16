@@ -353,6 +353,36 @@
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsVersionlessTargets.cmake",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6LinguistTools/Qt6LinguistToolsMacros.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseArguments.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginTargets.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginTargets-relwithdebinfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QAppleNetworkInformationPluginAdditionalTargetInfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginTargets-relwithdebinfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QSecureTransportBackendPluginAdditionalTargetInfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake",
+		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake",
 		"/Applications/CMake.app/Contents/share/cmake-3.26/Modules/GNUInstallDirs.cmake",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
 		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/icons/icons.qrc",
@@ -365,6 +395,18 @@
 	"HEADERS" : 
 	[
 		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h",
+			"MU",
+			"EWIEGA46WW/moc_WeatherTool.cpp",
+			null
+		],
+		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h",
+			"MU",
+			"EWIEGA46WW/moc_weatherdata.cpp",
+			null
+		],
+		[
 			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h",
 			"MU",
 			"EWIEGA46WW/moc_widget.cpp",
@@ -374,7 +416,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -392,6 +434,8 @@
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers",
+		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include",

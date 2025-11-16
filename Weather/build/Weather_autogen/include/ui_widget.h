@@ -51,7 +51,7 @@ public:
     QLabel *date2Lb;
     QLabel *high4Lb;
     QLabel *low0Lb;
-    QLabel *tem3Lb;
+    QLabel *type3Lb;
     QLabel *quality2Lb;
     QLabel *high5Lb;
     QLabel *curveLb;
@@ -60,8 +60,8 @@ public:
     QLabel *quality1Lb;
     QLabel *quality4Lb;
     QLabel *date4Lb;
-    QLabel *tem5Lb;
-    QLabel *tem1Lb;
+    QLabel *type5Lb;
+    QLabel *type1Lb;
     QLabel *low1Lb;
     QLabel *low4Lb;
     QLabel *typeIco0Lb;
@@ -70,17 +70,17 @@ public:
     QLabel *typeIco3Lb;
     QLabel *week1Lb;
     QLabel *typeIco4Lb;
-    QLabel *tem2Lb;
+    QLabel *type2Lb;
     QLabel *high0Lb;
     QLabel *date3Lb;
     QLabel *quality0Lb;
-    QLabel *tem4Lb;
+    QLabel *type4Lb;
     QLabel *high1Lb;
     QLabel *week5Lb;
     QLabel *high2Lb;
     QLabel *quality5Lb;
     QLabel *low3Lb;
-    QLabel *tem0Lb;
+    QLabel *type0Lb;
     QLabel *quality3Lb;
     QLabel *date0Lb;
     QLabel *week0Lb;
@@ -285,11 +285,11 @@ public:
 
         gridLayout_2->addWidget(low0Lb, 10, 0, 1, 1);
 
-        tem3Lb = new QLabel(gridLayoutWidget_2);
-        tem3Lb->setObjectName("tem3Lb");
-        tem3Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type3Lb = new QLabel(gridLayoutWidget_2);
+        type3Lb->setObjectName("type3Lb");
+        type3Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem3Lb, 3, 3, 1, 1);
+        gridLayout_2->addWidget(type3Lb, 3, 3, 1, 1);
 
         quality2Lb = new QLabel(gridLayoutWidget_2);
         quality2Lb->setObjectName("quality2Lb");
@@ -342,17 +342,17 @@ public:
 
         gridLayout_2->addWidget(date4Lb, 1, 4, 1, 1);
 
-        tem5Lb = new QLabel(gridLayoutWidget_2);
-        tem5Lb->setObjectName("tem5Lb");
-        tem5Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type5Lb = new QLabel(gridLayoutWidget_2);
+        type5Lb->setObjectName("type5Lb");
+        type5Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem5Lb, 3, 5, 1, 1);
+        gridLayout_2->addWidget(type5Lb, 3, 5, 1, 1);
 
-        tem1Lb = new QLabel(gridLayoutWidget_2);
-        tem1Lb->setObjectName("tem1Lb");
-        tem1Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type1Lb = new QLabel(gridLayoutWidget_2);
+        type1Lb->setObjectName("type1Lb");
+        type1Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem1Lb, 3, 1, 1, 1);
+        gridLayout_2->addWidget(type1Lb, 3, 1, 1, 1);
 
         low1Lb = new QLabel(gridLayoutWidget_2);
         low1Lb->setObjectName("low1Lb");
@@ -405,11 +405,11 @@ public:
 
         gridLayout_2->addWidget(typeIco4Lb, 4, 4, 2, 1);
 
-        tem2Lb = new QLabel(gridLayoutWidget_2);
-        tem2Lb->setObjectName("tem2Lb");
-        tem2Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type2Lb = new QLabel(gridLayoutWidget_2);
+        type2Lb->setObjectName("type2Lb");
+        type2Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem2Lb, 3, 2, 1, 1);
+        gridLayout_2->addWidget(type2Lb, 3, 2, 1, 1);
 
         high0Lb = new QLabel(gridLayoutWidget_2);
         high0Lb->setObjectName("high0Lb");
@@ -430,11 +430,11 @@ public:
 
         gridLayout_2->addWidget(quality0Lb, 2, 0, 1, 1);
 
-        tem4Lb = new QLabel(gridLayoutWidget_2);
-        tem4Lb->setObjectName("tem4Lb");
-        tem4Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type4Lb = new QLabel(gridLayoutWidget_2);
+        type4Lb->setObjectName("type4Lb");
+        type4Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem4Lb, 3, 4, 1, 1);
+        gridLayout_2->addWidget(type4Lb, 3, 4, 1, 1);
 
         high1Lb = new QLabel(gridLayoutWidget_2);
         high1Lb->setObjectName("high1Lb");
@@ -467,11 +467,11 @@ public:
 
         gridLayout_2->addWidget(low3Lb, 10, 3, 1, 1);
 
-        tem0Lb = new QLabel(gridLayoutWidget_2);
-        tem0Lb->setObjectName("tem0Lb");
-        tem0Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        type0Lb = new QLabel(gridLayoutWidget_2);
+        type0Lb->setObjectName("type0Lb");
+        type0Lb->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
-        gridLayout_2->addWidget(tem0Lb, 3, 0, 1, 1);
+        gridLayout_2->addWidget(type0Lb, 3, 0, 1, 1);
 
         quality3Lb = new QLabel(gridLayoutWidget_2);
         quality3Lb->setObjectName("quality3Lb");
@@ -606,7 +606,7 @@ public:
         date2Lb->setText(QCoreApplication::translate("Widget", "08", nullptr));
         high4Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         low0Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
-        tem3Lb->setText(QCoreApplication::translate("Widget", "\345\244\232\344\272\221", nullptr));
+        type3Lb->setText(QCoreApplication::translate("Widget", "\345\244\232\344\272\221", nullptr));
         quality2Lb->setText(QCoreApplication::translate("Widget", "\344\274\230\350\264\250", nullptr));
         high5Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         curveLb->setText(QCoreApplication::translate("Widget", "TextLabel", nullptr));
@@ -615,8 +615,8 @@ public:
         quality1Lb->setText(QCoreApplication::translate("Widget", "\344\274\230\350\264\250", nullptr));
         quality4Lb->setText(QCoreApplication::translate("Widget", "\350\275\273\345\272\246\346\261\241\346\237\223", nullptr));
         date4Lb->setText(QCoreApplication::translate("Widget", "10", nullptr));
-        tem5Lb->setText(QCoreApplication::translate("Widget", "\346\231\264", nullptr));
-        tem1Lb->setText(QCoreApplication::translate("Widget", "\351\233\250\345\244\271\351\233\252", nullptr));
+        type5Lb->setText(QCoreApplication::translate("Widget", "\346\231\264", nullptr));
+        type1Lb->setText(QCoreApplication::translate("Widget", "\351\233\250\345\244\271\351\233\252", nullptr));
         low1Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         low4Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         typeIco0Lb->setText(QString());
@@ -625,17 +625,17 @@ public:
         typeIco3Lb->setText(QString());
         week1Lb->setText(QCoreApplication::translate("Widget", "\344\273\212\345\244\251", nullptr));
         typeIco4Lb->setText(QString());
-        tem2Lb->setText(QCoreApplication::translate("Widget", "\346\231\264", nullptr));
+        type2Lb->setText(QCoreApplication::translate("Widget", "\346\231\264", nullptr));
         high0Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         date3Lb->setText(QCoreApplication::translate("Widget", "09", nullptr));
         quality0Lb->setText(QCoreApplication::translate("Widget", "\350\275\273\345\272\246\346\261\241\346\237\223", nullptr));
-        tem4Lb->setText(QCoreApplication::translate("Widget", "\351\230\264", nullptr));
+        type4Lb->setText(QCoreApplication::translate("Widget", "\351\230\264", nullptr));
         high1Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         week5Lb->setText(QCoreApplication::translate("Widget", "\346\230\237\346\234\237\344\270\200", nullptr));
         high2Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
         quality5Lb->setText(QCoreApplication::translate("Widget", "\350\275\273\345\272\246\346\261\241\346\237\223", nullptr));
         low3Lb->setText(QCoreApplication::translate("Widget", "3\342\204\203", nullptr));
-        tem0Lb->setText(QCoreApplication::translate("Widget", "\345\260\217\351\233\250", nullptr));
+        type0Lb->setText(QCoreApplication::translate("Widget", "\345\260\217\351\233\250", nullptr));
         quality3Lb->setText(QCoreApplication::translate("Widget", "\350\211\257\345\245\275", nullptr));
         date0Lb->setText(QCoreApplication::translate("Widget", "06", nullptr));
         week0Lb->setText(QCoreApplication::translate("Widget", "\346\230\250\345\244\251", nullptr));

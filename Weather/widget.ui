@@ -359,7 +359,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="3">
-      <widget class="QLabel" name="tem3Lb">
+      <widget class="QLabel" name="type3Lb">
        <property name="text">
         <string>多云</string>
        </property>
@@ -458,7 +458,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="5">
-      <widget class="QLabel" name="tem5Lb">
+      <widget class="QLabel" name="type5Lb">
        <property name="text">
         <string>晴</string>
        </property>
@@ -468,7 +468,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QLabel" name="tem1Lb">
+      <widget class="QLabel" name="type1Lb">
        <property name="text">
         <string>雨夹雪</string>
        </property>
@@ -567,7 +567,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="2">
-      <widget class="QLabel" name="tem2Lb">
+      <widget class="QLabel" name="type2Lb">
        <property name="text">
         <string>晴</string>
        </property>
@@ -610,7 +610,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="4">
-      <widget class="QLabel" name="tem4Lb">
+      <widget class="QLabel" name="type4Lb">
        <property name="text">
         <string>阴</string>
        </property>
@@ -673,7 +673,7 @@ color: rgb(85, 255, 0);</string>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QLabel" name="tem0Lb">
+      <widget class="QLabel" name="type0Lb">
        <property name="text">
         <string>小雨</string>
        </property>

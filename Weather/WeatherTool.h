@@ -6,6 +6,8 @@
 #include <QJsonValue>
 #include <QJsonParseError>
 
+#include <QDebug>
+
 #include <map>
 #include <QFile> //读取文件
 #include <QCoreApplication> //获取程序路径
@@ -18,26 +20,10 @@ private:
 public:
     WeatherTool(){
         // 获取可执行文件的绝对路径
-        QDir appDir(QCoreApplication::applicationDirPath());
+        // QDir appDir(QCoreApplication::applicationDirPath());
         // 创建错误信息收集对象
         QJsonParseError err;
-
-        // 构建文件所在路径
-        #ifdef Q_OS_MAC
-            if (appDir.dirName() == "MacOS"){
-                // 在.app/MacOS目录中，需要向上到Resources目录
-                appDir.cdUp();
-                appDir.cdUp();
-                appDir.cd("Resources");
-                QString fileName = appDir.absoluteFilePath("citycode-2019-08-23.json");
-            }else{
-                QString fileName = appDir.absoluteFilePath("../../Weather/citycode-2019-08-23.json");
-            }
-        #else
-            QString fileName = appDir.absoluteFilePath("../../Weather/citycode-2019-08-23.json");
-        #endif
-        std::cout << "fileName: " << fileName.toStdString() << std::endl;
-        
+        QString fileName = "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/citycode-2019-08-23.json";
         // 读取文件内容
         QFile file(fileName);
         file.open(QIODevice::ReadOnly | QIODevice::Text);

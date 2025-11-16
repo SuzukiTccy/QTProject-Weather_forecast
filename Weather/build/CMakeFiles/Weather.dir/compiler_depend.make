@@ -1043,6 +1043,67 @@ CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o: Weather_autogen/m
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QPoint \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QNetworkAccessManager \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkrequest.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhttpheaders.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetaobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSharedDataPointer \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QUrl \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QVariant \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q26numeric.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslConfiguration \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslconfiguration.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhostaddress.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslcertificate.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcryptographichash.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qssl.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QFlags \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslPreSharedKeyAuthenticator \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QMetaType \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsondocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonObject \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborcommon.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/quuid.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonArray \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonValue \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonParseError \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QCoreApplication \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDir \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdirlisting.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextcursor.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextformat.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpen.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextoption.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslError \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtmocconstants.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q20algorithm.h \
@@ -2083,6 +2144,62 @@ CMakeFiles/Weather.dir/main.cpp.o: /Users/ccy/Desktop/QTProject-Weather_forecast
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QPoint \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QNetworkAccessManager \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkrequest.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhttpheaders.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetaobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSharedDataPointer \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QUrl \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QVariant \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q26numeric.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslConfiguration \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslconfiguration.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhostaddress.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslcertificate.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcryptographichash.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qssl.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QFlags \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslPreSharedKeyAuthenticator \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QMetaType \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsondocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonObject \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborcommon.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/quuid.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonArray \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonValue \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonParseError \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QCoreApplication \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDir \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdirlisting.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QLocale \
@@ -3124,21 +3241,71 @@ CMakeFiles/Weather.dir/widget.cpp.o: /Users/ccy/Desktop/QTProject-Weather_foreca
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QPoint \
-  Weather_autogen/include/ui_widget.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QNetworkAccessManager \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkrequest.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhttpheaders.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatetime.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcalendar.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetaobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSharedDataPointer \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QUrl \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QVariant \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q26numeric.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslConfiguration \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslconfiguration.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhostaddress.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslcertificate.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcryptographichash.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qssl.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QFlags \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslPreSharedKeyAuthenticator \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QMetaType \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonDocument \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsondocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonObject \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonobject.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborvalue.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborcommon.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qregularexpression.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/quuid.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonArray \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonarray.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonValue \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonParseError \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDebug \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QCoreApplication \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDir \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdir.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdirlisting.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfileinfo.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtimezone.h \
+  Weather_autogen/include/ui_widget.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QApplication \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qapplication.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QFrame \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QGridLayout \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qgridlayout.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayout.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h \
-  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextdocument.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLineEdit \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextcursor.h \
@@ -3152,23 +3319,11 @@ CMakeFiles/Weather.dir/widget.cpp.o: /Users/ccy/Desktop/QTProject-Weather_foreca
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qabstractbutton.h:
 
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextformat.h:
-
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlineedit.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayoutitem.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlayout.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h:
-
-/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QVariant:
 
 Weather_autogen/include/ui_widget.h:
 
@@ -3190,6 +3345,74 @@ Weather_autogen/include/ui_widget.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtmochelpers.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qtextformat.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtimezone.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdir.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QCoreApplication:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonParseError:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonValue:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonArray:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborcommon.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcborvalue.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonObject:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonparseerror.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsondocument.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QJsonDocument:
+
+/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QMetaType:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslpresharedkeyauthenticator.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslerror.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qabstractsocket.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslsocket.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslConfiguration:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/q26numeric.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QVariant:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QUrl:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QSharedDataPointer:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmetaobject.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhttpheaders.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkrequest.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetwork-config.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkglobal.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QNetworkAccessManager:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpicture.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qframe.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qlabel.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/QLabel:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/u8path.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h:
@@ -3197,6 +3420,8 @@ Weather_autogen/include/ui_widget.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/unistd.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdirlisting.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/print:
 
@@ -3217,6 +3442,8 @@ Weather_autogen/include/ui_widget.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/file_time_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/file_type.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qhostaddress.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__filesystem/directory_entry.h:
 
@@ -3245,6 +3472,8 @@ Weather_autogen/include/ui_widget.h:
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qpointingdevice.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qvector2d.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslPreSharedKeyAuthenticator:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Headers/qeventpoint.h:
 
@@ -3362,6 +3591,8 @@ Weather_autogen/include/ui_widget.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qlist.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcryptographichash.h:
+
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringconverter_base.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qstringtokenizer.h:
@@ -3403,6 +3634,8 @@ Weather_autogen/include/ui_widget.h:
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qarraydatapointer.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qobjectdefs_impl.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslcertificate.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -3519,6 +3752,8 @@ Weather_autogen/include/ui_widget.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/clocale:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/cerrno:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonobject.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__memory/addressof.h:
 
@@ -3764,6 +3999,8 @@ Weather_autogen/include/ui_widget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/container_traits.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qregularexpression.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h:
@@ -3948,6 +4185,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__string/char_traits.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtnetworkexports.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/istream_iterator.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
@@ -4050,6 +4289,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QString:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__chrono/duration.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__atomic/to_gcc_order.h:
@@ -4111,6 +4352,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__system_error/error_category.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_clock_t.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonvalue.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/_time.h:
 
@@ -4288,6 +4531,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qsslconfiguration.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__new/placement_new_delete.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_abstract.h:
@@ -4384,6 +4629,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/half_positive.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qdatetime.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__assertion_handler:
@@ -4470,6 +4717,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qtversionchecks.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDebug:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/clamp.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__random/is_valid.h:
@@ -4545,6 +4794,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_mode_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/__stddef_null.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qtcpsocket.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__math/min_max.h:
 
@@ -4652,6 +4903,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qnetworkaccessmanager.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/signal.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/sys/_types/_id_t.h:
@@ -4719,6 +4972,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/find_first_of.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/Availability.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/QSslError:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__fwd/memory_resource.h:
 
@@ -5078,6 +5333,8 @@ Weather_autogen/NGXW7J3N7T/qrc_icons.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qcalendar.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/iter_move.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qmalloc.h:
@@ -5110,6 +5367,8 @@ Weather_autogen/ZWADCVY5KM/qrc_images.cpp:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qjsonarray.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/prev.h:
@@ -5117,6 +5376,8 @@ Weather_autogen/ZWADCVY5KM/qrc_images.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__memory/align.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qfileinfo.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include/stdbool.h:
 
@@ -5144,6 +5405,8 @@ Weather_autogen/ZWADCVY5KM/qrc_images.cpp:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qprocessordetection.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Headers/qssl.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qswap.h:
@@ -5155,6 +5418,8 @@ Weather_autogen/ZWADCVY5KM/qrc_images.cpp:
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qglobalstatic.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QFlags:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/_types/_uint32_t.h:
 
@@ -5232,6 +5497,8 @@ Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/quuid.h:
+
 Weather_autogen/EWIEGA46WW/moc_widget.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:
@@ -5241,6 +5508,8 @@ Weather_autogen/EWIEGA46WW/moc_widget.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/c++/v1/__concepts/different_from.h:
 
 /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/qconfig.h:
+
+/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers/QDir:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk/usr/include/arm/_mcontext.h:
 

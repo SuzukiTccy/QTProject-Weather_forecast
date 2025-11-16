@@ -269,6 +269,7 @@ Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/ZWADC
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/build.make
 Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets
+Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/QtNetwork
 Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui
 Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/link.txt
