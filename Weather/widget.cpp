@@ -27,7 +27,7 @@ Widget::Widget(QWidget *parent)
     // 等价于多次调用append()
     this->forecast_week_list << ui->week0Lb << ui->week1Lb << ui->week2Lb << ui->week3Lb << ui->week4Lb << ui->week5Lb;
     this->forecast_date_list << ui->date0Lb << ui->date1Lb << ui->date2Lb << ui->date3Lb << ui->date4Lb << ui->date5Lb;
-    this->forecast_quality_list << ui->quality0Lb << ui->quality1Lb << ui->quality2Lb << ui->quality3Lb << ui->quality4Lb << ui->quality5Lb;
+    this->forecast_aqi_list << ui->quality0Lb << ui->quality1Lb << ui->quality2Lb << ui->quality3Lb << ui->quality4Lb << ui->quality5Lb;
     this->forecast_type_list << ui->type0Lb << ui->type1Lb << ui->type2Lb << ui->type3Lb << ui->type4Lb << ui->type5Lb;
     this->forecast_typeIco_list << ui->typeIco0Lb << ui->typeIco1Lb << ui->typeIco2Lb << ui->typeIco3Lb << ui->typeIco4Lb << ui->typeIco5Lb;
     this->forecast_high_list << ui->high0Lb << ui->high1Lb << ui->high2Lb << ui->high3Lb << ui->high4Lb << ui->high5Lb;
@@ -56,6 +56,12 @@ Widget::Widget(QWidget *parent)
     connect(manager, &QNetworkAccessManager::finished, this, &Widget::replyFinished);
     this->getWeatherInfo(this->manager);
 
+    // 初始化Forecast列表
+    this->initForecastList();
+
+    // 更新数据
+    this->setLabelContent();
+    
 }
 
 Widget::~Widget()
@@ -103,10 +109,192 @@ void Widget::getWeatherInfo(QNetworkAccessManager *manager){
 void Widget::replyFinished(QNetworkReply *reply){
     /* 获取响应的信息，状态码为200表示正常 */
     QVariant status_code = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute);
-    if(reply->error() != QNetworkReply::NoError || status_code != 200){
-        QMessageBox::warning(this, u8"错误", u8"获取天气信息失败，请检查网络连接！", QMessageBox::Ok);
-        return;
+    QString error_reason = reply->attribute(QNetworkRequest::HttpReasonPhraseAttribute).toString();
+    /*
+    除了状态码，我们还要检查reply->error()。因为有些错误可能发生在网络层（如连接超时、主机不可达等），
+    此时状态码可能无效，而reply->error()会返回非NoError的值。
+    */
+    if(reply->error() != QNetworkReply::NoError){
+        // 网络层错误（连接失败, 超时等）
+        QMessageBox::warning(this, u8"错误", u8"网络错误！" + reply->errorString(), QMessageBox::Ok);
+    }else if(status_code != 200){
+        // HTTP协议层错误
+        QMessageBox::warning(this, u8"错误", u8"服务器返回错误: " + status_code.toString() + \
+        "\n" + error_reason, QMessageBox::Ok);
     }
     QByteArray bytes = reply->readAll();
-    parseJson(bytes);
+    // qDebug() << bytes; // 打印JSON数据
+    this->parseJson(bytes); // 解析JSON数据
+}
+
+void Widget::parseJson(QByteArray bytes){
+    QJsonParseError err;
+    QJsonDocument jsonDoc = QJsonDocument::fromJson(bytes, &err);
+    if(err.error != QJsonParseError::NoError){
+        QMessageBox::warning(this, u8"错误", u8"解析JSON数据失败！", QMessageBox::Ok);
+        return;
+    }
+    QJsonObject jsObj = jsonDoc.object();
+    QString message = jsObj.value("message").toString();
+    if(message.contains("success") == false){
+        QMessageBox::information(this, tr("The information of Json_desc"), u8"天气：城市错误", QMessageBox::Ok);
+        this->city = this->cityTmp;
+        return;
+    }
+
+    this->today = jsObj;
+    // 解析data中的yesterday
+    QJsonObject dataObj = jsObj.value("data").toObject();
+    this->forecast[0] = dataObj.value("yesterday").toObject();
+    // 解析data中的forecast
+    QJsonArray forecastArr = dataObj.value("forecast").toArray();
+    for(int i = 1; i < this->forecast_date_list.size(); i++){
+        this->forecast[i] = forecastArr[i-1].toObject();
+    }
+}
+
+void Widget::initForecastList(){
+    // 初始化Forecast列表
+    for(int i = 0; i < this->forecast_date_list.size(); i++){
+        this->forecast << Forecast();
+    }
+}
+
+void Widget::setLabelContent(){
+    QEventLoop eventloop;
+    QTimer::singleShot(1000, &eventloop, &QEventLoop::quit);
+    eventloop.exec();
+    // 今日数据
+    ui->citydateLb->setText(this->today.date);
+    ui->cityTemLb->setText(this->today.temperature);
+    ui->cityLocLb->setText(this->today.city);
+    ui->cityWeaLb->setText(this->today.type);
+    ui->noticeLb->setText(this->today.notice);
+    ui->shiduLb->setText(this->today.shidu);
+    ui->pm25Lb->setText(this->today.pm25);
+    ui->fxLb->setText(this->today.fx);
+    ui->flLb->setText(this->today.fl);
+    ui->ganmaoBrowser->setText(this->today.ganmao);
+
+    // Forecast数据
+    for(int i = 0; i < this->forecast_date_list.size(); i++){
+        this->forecast_week_list[i]->setText(this->forecast[i].week.right(3));
+        this->forecast_date_list[i]->setText(forecast[i].date.left(3));
+        this->forecast_type_list[i]->setText(forecast[i].type);
+        this->forecast_high_list[i]->setText(forecast[i].high.split(" ").at(1));
+        this->forecast_low_list[i]->setText(forecast[i].low.split(" ").at(1));
+        this->forecast_typeIco_list[i]->setStyleSheet( tr("image:url(:/day/day/%1.png);").arg(forecast[i].type));
+
+        // 空气质量
+        if (this->forecast[i].aqi.toInt() >= 0 && this->forecast[i].aqi.toInt() <= 50){
+            this->forecast_aqi_list[i]->setText(u8"优");
+            this->forecast_aqi_list[i]->setStyleSheet("color: rgb(0, 255, 0);");
+        }
+        else if(this->forecast[i].aqi.toInt() > 50 && this->forecast[i].aqi.toInt() <= 100){
+            this->forecast_aqi_list[i]->setText(u8"良");
+            this->forecast_aqi_list[i]->setStyleSheet("color: rgb(255, 255, 0);");
+        }
+        else if(this->forecast[i].aqi.toInt() > 100 && this->forecast[i].aqi.toInt() <= 150){
+            this->forecast_aqi_list[i]->setText(u8"轻度污染");
+            this->forecast_aqi_list[i]->setStyleSheet("color: rgb(255, 170, 0);");
+        }
+        else if(this->forecast[i].aqi.toInt() > 150 && this->forecast[i].aqi.toInt() <= 200){
+            this->forecast_aqi_list[i]->setText(u8"重度污染");
+            this->forecast_aqi_list[i]->setStyleSheet("color: rgb(255, 0, 0);");
+        }
+        else{
+            this->forecast_aqi_list[i]->setText(u8"严重污染");
+            this->forecast_aqi_list[i]->setStyleSheet("color: rgb(170, 0, 0);");
+        }
+    }
+
+    // 更新今天昨天label
+    ui->week0Lb->setText(u8"昨天");
+    ui->week1Lb->setText(u8"今天");
+
+}
+
+// 绘制日落日出图的水平线的相对坐标
+const QPoint Widget::sun[2] = {
+    QPoint(20, 75),
+    QPoint(130, 75)
+};
+
+// 绘制出日落日出时间的相对坐标
+const QRect Widget::sunRiseSetRect[2] = {
+    QRect(0, 80, 50, 20),
+    QRect(100, 80, 50, 20)
+};
+
+// 绘制日落日出圆弧
+const QRect Widget::rect[2] = {
+    QRect(25, 25, 100, 100), // 虚线圆弧
+    QRect(50, 80, 50, 20) // "日落日出"文本
+};
+
+void Widget::paintSunRiseSet(){
+    QPainter painter(ui->sunRiseSetLb); // 在sunRiseSetLb上绘制
+    painter.setRenderHint(QPainter::Antialiasing, true); // 抗锯齿
+    painter.save(); // 保存当前绘制器状态（将状态推送到堆栈上）
+    QPen pen = painter.pen();
+    pen.setWidthF(0.5); // 设置画笔宽度, 单位为浮点值像素
+    pen.setColor(Qt::yellow); // 设置画笔颜色
+    painter.setPen(pen); // 设置画笔
+    painter.drawLine(this->sun[0], this->sun[1]); // 绘制日出日落水平线
+    painter.restore(); // 恢复之前保存的绘制器状态（从堆栈上弹出并恢复状态）
+    
+    painter.save();
+    painter.setFont(QFont("Arial", 8, QFont::Normal)); // 设置字体
+    painter.setPen(Qt::white); // 设置画笔颜色
+    if(this->today.sunrise != "" && this->today.sunset != ""){
+        // 在制定区域内绘制文字
+        painter.drawText(this->sunRiseSetRect[0], Qt::AlignCenter, this->today.sunrise);
+        painter.drawText(this->sunRiseSetRect[1], Qt::AlignCenter, this->today.sunset);
+    }
+    painter.drawText(this->rect[1], Qt::AlignCenter, u8"日落日出"); // 在制定区域内绘制文字
+    painter.restore();
+
+    // 绘制圆弧
+    painter.save();
+    pen.setWidthF(0.5); // 设置画笔宽度, 单位为浮点值像素
+    pen.setStyle(Qt::DotLine); // 虚线
+    pen.setColor(Qt::green); // 设置画笔颜色
+    painter.setPen(pen); // 设置画笔
+    painter.drawArc(this->rect[0], 0 * 16, 180 * 16); // 绘制圆弧
+    painter.restore();
+
+    // 绘制日出日落占比
+    if(this->today.sunrise != "" && this->today.sunset != ""){
+        painter.setPen(Qt::NoPen); // 不绘制边框
+        painter.setBrush(QColor(255,85,0,100)); // 设置填充颜色
+
+        int startAngle = 0, spanAngle = 0;
+        QString sunsetTime = this->today.date + " " + this->today.sunset;
+        if(QDateTime::currentDateTime() > QDateTime::fromString(sunsetTime, "yyyy-MM-dd HH:mm")){
+            // 当前时间已经日落
+            startAngle = 0 * 16;
+            spanAngle = 180 * 16;
+        }
+        else{
+            // 计算起始角度和跨越角度
+            static QStringList sunSetTime = this->today.sunset.split(":");
+            static QStringList sunRiseTime = this->today.sunrise.split(":");
+
+            static QString sunsetHour = sunsetTime.at(0);
+            static QString sunsetMint = sunsetTime.at(1);
+            static QString sunriseHour = sunRiseTime.at(0);
+            static QString sunriseMint = sunRiseTime.at(1);
+
+            static int sunrise = sunriseHour.toInt() * 60 + sunriseMint.toInt();
+            static int sunset = sunsetHour.toInt() * 60 + sunsetMint.toInt();
+            int now = QTime::currentTime().hour() * 60 + QTime::currentTime().minute();
+
+            startAngle = ((double)(sunset - now) / (sunset - sunrise)) * 180 * 16;
+            spanAngle = ((double)(now - sunrise) / (sunset - sunrise)) * 180 * 16;
+
+            if(startAngle >= 0 && spanAngle >= 0){
+                painter.drawPie(this->rect[0], startAngle, spanAngle); // 绘制扇形
+            }
+        }
+    }
 }

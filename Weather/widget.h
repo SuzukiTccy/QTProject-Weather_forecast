@@ -12,7 +12,16 @@
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>
 #include <QtNetwork/QNetworkRequest>
+#include <QMessageBox>
+#include <QTimer>
+#include <QPainter>
+#include <QPen>
+#include <QPoint>
+#include <QRect>
+#include <QDateTime>
+
 #include "WeatherTool.h"
+#include "weatherdata.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -40,7 +49,7 @@ private:
     // 预报窗口数据
     QList<QLabel*> forecast_week_list; // 星期
     QList<QLabel*> forecast_date_list; // 日期
-    QList<QLabel*> forecast_quality_list; // 空气质量
+    QList<QLabel*> forecast_aqi_list; // 空气质量
     QList<QLabel*> forecast_type_list; // 天气类型
     QList<QLabel*> forecast_typeIco_list; // 天气类型图标
     QList<QLabel*> forecast_high_list; // 最高温度
@@ -52,6 +61,16 @@ private:
     QString cityTmp; // 临时存放城市变量，防止输入错误城市的时候，原来的城市名称还在
     WeatherTool tool; // 天气工具对象
     QNetworkAccessManager *manager; // 网络请求对象
+
+    // 天气数据
+    Today today; // 今日天气
+    QList<Forecast> forecast; // 预报天气
+
+    // 绘制日落日出时间
+    static const QPoint sun[2]; // 绘制日落日出图的水平线的相对坐标
+    static const QRect sunRiseSetRect[2]; // 绘制出日落日出时间的相对坐标
+    static const QRect rect[2]; // 绘制日落日出圆弧
+
  
 protected:
     void contextMenuEvent(QContextMenuEvent *menuEvent); // 重写右键菜单事件
@@ -61,5 +80,10 @@ protected:
 
     void getWeatherInfo(QNetworkAccessManager *manager); // 获取天气信息
     void replyFinished(QNetworkReply *reply); // 网络请求完成槽函数
-};
+    void parseJson(QByteArray bytes); // 解析json数据
+    void initForecastList(); // 初始化天气预报窗口
+    void setLabelContent(); // 设置天气数据
+    void paintSunRiseSet(); // 绘制日出日落时间
+}; 
+
 #endif // WIDGET_H

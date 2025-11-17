@@ -8,7 +8,7 @@
 
 
 Today::Today(){
-    this->data = "0000-00-00";
+    this->date = "0000-00-00";
     this->city = "null";
     this->fl = u8"无数据";
     this->fx = u8"无数据";
@@ -25,7 +25,7 @@ Today::Today(){
 
 Today& Today::operator=(const QJsonObject &jsonObj){
     QString dataStr = jsonObj.value("date").toString();
-    this->data = QDate::fromString(dataStr, "yyyyMMdd").toString("yyyy-MM-dd");
+    this->date = QDate::fromString(dataStr, "yyyyMMdd").toString("yyyy-MM-dd");
     this->city = jsonObj.value("cityInfo").toObject().value("city").toString();
 
     // 解析data
@@ -48,7 +48,7 @@ Today& Today::operator=(const QJsonObject &jsonObj){
 
 Forecast::Forecast(){
     this->date = u8"00 日星期 0";
-    this->quality = "0";
+    this->aqi = "0";
     this->week = u8"星期 0";
     this->high = u8"最高温度 0.0℃";
     this->low = u8"最低温度 0.0℃";
@@ -61,7 +61,7 @@ Forecast& Forecast::operator=(const QJsonObject &jsonObj){
     this->week = jsonObj.value("week").toString();
     this->high = jsonObj.value("high").toString();
     this->low = jsonObj.value("low").toString();
-    this->quality = QString::number(jsonObj.value("api").toDouble());
+    this->aqi = QString::number(jsonObj.value("api").toDouble());
     this->type = jsonObj.value("type").toString();
     return *this;
 }

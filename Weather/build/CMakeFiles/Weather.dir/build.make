@@ -207,10 +207,24 @@ CMakeFiles/Weather.dir/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Weather.dir/widget.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp -o CMakeFiles/Weather.dir/widget.cpp.s
 
+CMakeFiles/Weather.dir/weatherdata.cpp.o: CMakeFiles/Weather.dir/flags.make
+CMakeFiles/Weather.dir/weatherdata.cpp.o: /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp
+CMakeFiles/Weather.dir/weatherdata.cpp.o: CMakeFiles/Weather.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Weather.dir/weatherdata.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Weather.dir/weatherdata.cpp.o -MF CMakeFiles/Weather.dir/weatherdata.cpp.o.d -o CMakeFiles/Weather.dir/weatherdata.cpp.o -c /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp
+
+CMakeFiles/Weather.dir/weatherdata.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Weather.dir/weatherdata.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp > CMakeFiles/Weather.dir/weatherdata.cpp.i
+
+CMakeFiles/Weather.dir/weatherdata.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Weather.dir/weatherdata.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp -o CMakeFiles/Weather.dir/weatherdata.cpp.s
+
 CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o: CMakeFiles/Weather.dir/flags.make
 CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o: Weather_autogen/NGXW7J3N7T/qrc_icons.cpp
 CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o: CMakeFiles/Weather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o -MF CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o.d -o CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o -c /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp
 
 CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.i: cmake_force
@@ -224,7 +238,7 @@ CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.s: cmake_force
 CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o: CMakeFiles/Weather.dir/flags.make
 CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o: Weather_autogen/ZWADCVY5KM/qrc_images.cpp
 CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o: CMakeFiles/Weather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o -MF CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o.d -o CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o -c /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp
 
 CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.i: cmake_force
@@ -238,7 +252,7 @@ CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.s: cmake_force
 CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o: CMakeFiles/Weather.dir/flags.make
 CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o: Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp
 CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o: CMakeFiles/Weather.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o -MF CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o.d -o CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o -c /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp
 
 CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.i: cmake_force
@@ -254,6 +268,7 @@ Weather_OBJECTS = \
 "CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/Weather.dir/main.cpp.o" \
 "CMakeFiles/Weather.dir/widget.cpp.o" \
+"CMakeFiles/Weather.dir/weatherdata.cpp.o" \
 "CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o" \
 "CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o" \
 "CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o"
@@ -264,6 +279,7 @@ Weather_EXTERNAL_OBJECTS =
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/main.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/widget.cpp.o
+Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/weatherdata.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/NGXW7J3N7T/qrc_icons.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/Weather_autogen/IHMXTZ5GWC/qrc_weatypeico.cpp.o
@@ -273,7 +289,7 @@ Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/
 Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui
 Weather.app/Contents/MacOS/Weather: /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore
 Weather.app/Contents/MacOS/Weather: CMakeFiles/Weather.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Weather.app/Contents/MacOS/Weather"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Weather.app/Contents/MacOS/Weather"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Weather.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

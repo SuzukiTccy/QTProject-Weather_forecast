@@ -308,6 +308,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+weatherdata.o: weatherdata.cpp.o
+.PHONY : weatherdata.o
+
+# target to build an object file
+weatherdata.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/weatherdata.cpp.o
+.PHONY : weatherdata.cpp.o
+
+weatherdata.i: weatherdata.cpp.i
+.PHONY : weatherdata.i
+
+# target to preprocess a source file
+weatherdata.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/weatherdata.cpp.i
+.PHONY : weatherdata.cpp.i
+
+weatherdata.s: weatherdata.cpp.s
+.PHONY : weatherdata.s
+
+# target to generate assembly for a file
+weatherdata.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/weatherdata.cpp.s
+.PHONY : weatherdata.cpp.s
+
 widget.o: widget.cpp.o
 .PHONY : widget.o
 
@@ -361,6 +385,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... weatherdata.o"
+	@echo "... weatherdata.i"
+	@echo "... weatherdata.s"
 	@echo "... widget.o"
 	@echo "... widget.i"
 	@echo "... widget.s"

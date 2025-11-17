@@ -101,10 +101,12 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QCoreApplication \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QFlags \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QIODevice \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonArray \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
@@ -119,6 +121,7 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QUrl \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
@@ -260,6 +263,7 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
@@ -281,6 +285,8 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QAction \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QMouseEvent \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QPen \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
@@ -301,7 +307,9 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
@@ -313,6 +321,7 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -321,12 +330,15 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkAccessManager \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkReply \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkRequest \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslConfiguration \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslPreSharedKeyAuthenticator \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qhostaddress.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qhttpheaders.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkaccessmanager.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkreply.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkrequest.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qssl.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslcertificate.h \
@@ -340,13 +352,18 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMenu \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmenu.h \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
-  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h

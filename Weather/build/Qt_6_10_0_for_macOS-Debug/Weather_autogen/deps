@@ -1,76 +1,22 @@
 Weather_autogen/timestamp: \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompiler.cmake.in \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCXXInformation.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeCompilerIdDetection.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindBinUtils.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeGenericSystem.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeNinjaFindMake.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseArguments.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseImplicitLinkInfo.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeParseLibraryArchitecture.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeSystem.cmake.in \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CMakeTestCompilerCommon.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckIncludeFileCXX.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/CheckLibraryExists.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Clang.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/GNU.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/TI-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/FindOpenGL.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/FindPackageMessage.cmake \
@@ -79,12 +25,10 @@ Weather_autogen/timestamp: \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/MacroAddFileDependencies.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake \
-	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin-Determine-CXX.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/Darwin.cmake \
 	/Applications/CMake.app/Contents/share/cmake-3.26/Modules/Platform/UnixPaths.cmake \
@@ -189,10 +133,12 @@ Weather_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QCoreApplication \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDateTime \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDebug \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QDir \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QFile \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QFlags \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QIODevice \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonArray \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonDocument \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QJsonObject \
@@ -207,6 +153,7 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QUrl \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/q17memory.h \
@@ -348,6 +295,7 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtformat_impl.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
@@ -369,6 +317,8 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QAction \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QMouseEvent \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QPainter \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QPen \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
@@ -389,7 +339,9 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
@@ -401,6 +353,7 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -409,12 +362,15 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkAccessManager \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkReply \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QNetworkRequest \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslConfiguration \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/QSslPreSharedKeyAuthenticator \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qabstractsocket.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qhostaddress.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qhttpheaders.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkaccessmanager.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkreply.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qnetworkrequest.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qssl.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qsslcertificate.h \
@@ -428,10 +384,14 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtNetwork.framework/Versions/A/Headers/qtnetworkglobal.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QLabel \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMenu \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMessageBox \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmenu.h \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
@@ -664,6 +624,7 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.26.4/CMakeSystem.cmake \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp \
+	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.h \

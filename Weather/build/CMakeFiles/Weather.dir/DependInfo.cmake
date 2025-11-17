@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/ZWADCVY5KM/qrc_images.cpp" "CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o" "gcc" "CMakeFiles/Weather.dir/Weather_autogen/ZWADCVY5KM/qrc_images.cpp.o.d"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Weather_autogen/mocs_compilation.cpp" "CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o.d"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp" "CMakeFiles/Weather.dir/main.cpp.o" "gcc" "CMakeFiles/Weather.dir/main.cpp.o.d"
+  "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp" "CMakeFiles/Weather.dir/weatherdata.cpp.o" "gcc" "CMakeFiles/Weather.dir/weatherdata.cpp.o.d"
   "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp" "CMakeFiles/Weather.dir/widget.cpp.o" "gcc" "CMakeFiles/Weather.dir/widget.cpp.o.d"
   )
 

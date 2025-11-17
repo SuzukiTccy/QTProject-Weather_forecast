@@ -42,7 +42,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Weather.app/Contents/MacOS/Weather" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Weather.app/Contents/MacOS/Weather")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Users/ccy/Applications/Qt/6.10.0/macos/lib"
       -add_rpath "@executable_path/../Frameworks"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Weather.app/Contents/MacOS/Weather")
   endif()

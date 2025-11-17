@@ -25,7 +25,7 @@ class Ui_Widget
 public:
     QWidget *widget;
     QLineEdit *cityLineEdit;
-    QLabel *dataLb;
+    QLabel *citydateLb;
     QFrame *hLine_1;
     QFrame *hLine_10;
     QFrame *hLine_11;
@@ -99,8 +99,9 @@ public:
     QLabel *cityWeaLb;
     QLabel *noticeLb;
     QPushButton *searchBt;
-    QLabel *label;
+    QLabel *ganmaoBrowser;
     QPushButton *refreshBt;
+    QLabel *sunRiseSetLb;
 
     void setupUi(QWidget *Widget)
     {
@@ -116,7 +117,7 @@ public:
 "color:rgb(255, 255, 255);\n"
 "}\n"
 "QLabel{\n"
-"font: \"Microsoft YaHei\";\n"
+"font: \"Arial\";\n"
 "border-radius: 4px;\n"
 "background-color: rgba(60, 60, 60, 0);\n"
 "color: rgb(255, 255, 255);\n"
@@ -126,17 +127,17 @@ public:
         cityLineEdit->setEnabled(false);
         cityLineEdit->setGeometry(QRect(570, 10, 171, 31));
         cityLineEdit->setStyleSheet(QString::fromUtf8("background-color: rgba(255, 255, 255, 1);"));
-        dataLb = new QLabel(widget);
-        dataLb->setObjectName("dataLb");
-        dataLb->setGeometry(QRect(290, 10, 171, 31));
+        citydateLb = new QLabel(widget);
+        citydateLb->setObjectName("citydateLb");
+        citydateLb->setGeometry(QRect(290, 10, 171, 31));
         QFont font;
         font.setFamilies({QString::fromUtf8("Microsoft YaHei")});
         font.setPointSize(20);
         font.setBold(false);
         font.setItalic(false);
-        dataLb->setFont(font);
-        dataLb->setStyleSheet(QString::fromUtf8(""));
-        dataLb->setAlignment(Qt::AlignmentFlag::AlignCenter);
+        citydateLb->setFont(font);
+        citydateLb->setStyleSheet(QString::fromUtf8(""));
+        citydateLb->setAlignment(Qt::AlignmentFlag::AlignCenter);
         hLine_1 = new QFrame(widget);
         hLine_1->setObjectName("hLine_1");
         hLine_1->setGeometry(QRect(10, 48, 781, 1));
@@ -534,7 +535,7 @@ public:
 
         gridLayoutWidget_4 = new QWidget(widget);
         gridLayoutWidget_4->setObjectName("gridLayoutWidget_4");
-        gridLayoutWidget_4->setGeometry(QRect(150, 50, 61, 31));
+        gridLayoutWidget_4->setGeometry(QRect(160, 60, 51, 21));
         gridLayout_4 = new QGridLayout(gridLayoutWidget_4);
         gridLayout_4->setObjectName("gridLayout_4");
         gridLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -553,13 +554,13 @@ public:
 
         cityTemLb = new QLabel(widget);
         cityTemLb->setObjectName("cityTemLb");
-        cityTemLb->setGeometry(QRect(50, 80, 121, 81));
+        cityTemLb->setGeometry(QRect(50, 70, 121, 81));
         cityTemLb->setStyleSheet(QString::fromUtf8("color:rgba(255,255,255,1);\n"
-"font: 42pt;"));
+"font: 38pt"));
         cityTemLb->setAlignment(Qt::AlignmentFlag::AlignCenter);
         cityWeaLb = new QLabel(widget);
         cityWeaLb->setObjectName("cityWeaLb");
-        cityWeaLb->setGeometry(QRect(160, 130, 41, 16));
+        cityWeaLb->setGeometry(QRect(170, 130, 41, 16));
         cityWeaLb->setAlignment(Qt::AlignmentFlag::AlignCenter);
         noticeLb = new QLabel(widget);
         noticeLb->setObjectName("noticeLb");
@@ -569,15 +570,19 @@ public:
         searchBt->setGeometry(QRect(710, 10, 31, 32));
         searchBt->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
         searchBt->setStyleSheet(QString::fromUtf8("border-image:url(:/weatherIco/search.ico);"));
-        label = new QLabel(widget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(50, 340, 141, 91));
-        label->setAlignment(Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop);
+        ganmaoBrowser = new QLabel(widget);
+        ganmaoBrowser->setObjectName("ganmaoBrowser");
+        ganmaoBrowser->setGeometry(QRect(40, 336, 141, 101));
+        ganmaoBrowser->setStyleSheet(QString::fromUtf8("background-color:rgba(0,0,0,0.5);"));
+        ganmaoBrowser->setAlignment(Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignTop);
         refreshBt = new QPushButton(widget);
         refreshBt->setObjectName("refreshBt");
         refreshBt->setGeometry(QRect(750, 10, 31, 31));
         refreshBt->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
         refreshBt->setStyleSheet(QString::fromUtf8("border-image:url(:/weatherIco/refresh.ico)"));
+        sunRiseSetLb = new QLabel(widget);
+        sunRiseSetLb->setObjectName("sunRiseSetLb");
+        sunRiseSetLb->setGeometry(QRect(187, 336, 151, 101));
 
         retranslateUi(Widget);
 
@@ -587,7 +592,7 @@ public:
     void retranslateUi(QWidget *Widget)
     {
         Widget->setWindowTitle(QCoreApplication::translate("Widget", "Widget", nullptr));
-        dataLb->setText(QCoreApplication::translate("Widget", "2025-11-13", nullptr));
+        citydateLb->setText(QCoreApplication::translate("Widget", "2025-11-13", nullptr));
         label_4->setText(QCoreApplication::translate("Widget", "\345\244\251\346\260\224\351\242\204\346\212\245", nullptr));
         flLb->setText(QCoreApplication::translate("Widget", "4\347\272\247", nullptr));
         fxTitleLb->setText(QCoreApplication::translate("Widget", "\351\243\216\345\220\221", nullptr));
@@ -653,8 +658,9 @@ public:
         cityWeaLb->setText(QCoreApplication::translate("Widget", "\346\231\264", nullptr));
         noticeLb->setText(QCoreApplication::translate("Widget", "\351\201\223\350\267\257\346\271\277\346\273\221\357\274\214", nullptr));
         searchBt->setText(QString());
-        label->setText(QCoreApplication::translate("Widget", "\345\273\272\350\256\256", nullptr));
+        ganmaoBrowser->setText(QCoreApplication::translate("Widget", "\345\273\272\350\256\256", nullptr));
         refreshBt->setText(QString());
+        sunRiseSetLb->setText(QCoreApplication::translate("Widget", "TextLabel", nullptr));
     } // retranslateUi
 
 };

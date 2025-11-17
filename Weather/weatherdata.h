@@ -35,7 +35,7 @@ public:
     QString week; // 星期
     QString high; // 最高温度
     QString low; // 最低温度
-    QString quality; // 质量
+    QString aqi; // 质量
     QString type; // 天气类型
 };
 
