@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Weather.dir/Weather_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/Weather.dir/main.cpp.o"
   "CMakeFiles/Weather.dir/main.cpp.o.d"
+  "CMakeFiles/Weather.dir/qsunriseset.cpp.o"
+  "CMakeFiles/Weather.dir/qsunriseset.cpp.o.d"
   "CMakeFiles/Weather.dir/weatherdata.cpp.o"
   "CMakeFiles/Weather.dir/weatherdata.cpp.o.d"
   "CMakeFiles/Weather.dir/widget.cpp.o"

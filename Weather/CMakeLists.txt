@@ -22,7 +22,14 @@ set(PROJECT_SOURCES
         WeatherTool.h
         weatherdata.h
         weatherdata.cpp
+        qsunriseset.h
+        qsunriseset.cpp
         ${TS_FILES}
+)
+
+include_directories(Weather PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    ${CMAKE_CURRENT_BINARY_DIR}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

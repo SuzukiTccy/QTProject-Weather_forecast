@@ -19,9 +19,11 @@
 #include <QPoint>
 #include <QRect>
 #include <QDateTime>
+#include <QTime>
 
 #include "WeatherTool.h"
 #include "weatherdata.h"
+#include "qsunriseset.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -66,11 +68,6 @@ private:
     Today today; // 今日天气
     QList<Forecast> forecast; // 预报天气
 
-    // 绘制日落日出时间
-    static const QPoint sun[2]; // 绘制日落日出图的水平线的相对坐标
-    static const QRect sunRiseSetRect[2]; // 绘制出日落日出时间的相对坐标
-    static const QRect rect[2]; // 绘制日落日出圆弧
-
  
 protected:
     void contextMenuEvent(QContextMenuEvent *menuEvent); // 重写右键菜单事件
@@ -83,7 +80,6 @@ protected:
     void parseJson(QByteArray bytes); // 解析json数据
     void initForecastList(); // 初始化天气预报窗口
     void setLabelContent(); // 设置天气数据
-    void paintSunRiseSet(); // 绘制日出日落时间
 }; 
 
 #endif // WIDGET_H

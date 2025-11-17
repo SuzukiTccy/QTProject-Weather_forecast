@@ -64,7 +64,7 @@ color: rgb(255, 255, 255);
     </property>
     <property name="font">
      <font>
-      <family>Microsoft YaHei</family>
+      <family>Arial</family>
       <pointsize>20</pointsize>
       <italic>false</italic>
       <bold>false</bold>
@@ -139,14 +139,14 @@ color: rgb(255, 255, 255);
     </property>
     <property name="font">
      <font>
-      <family>华文琥珀</family>
+      <family>Arial</family>
       <pointsize>22</pointsize>
       <italic>false</italic>
       <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 22pt &quot;华文琥珀&quot;;
+     <string notr="true">font: 22pt &quot;Arial&quot;;
 background-color: rgba(255, 255, 255, 0);
 color: rgb(85, 255, 0);</string>
     </property>
@@ -953,21 +953,28 @@ font: 38pt</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="sunRiseSetLb">
+   <widget class="QSunRiseSet" name="sunRiseSetLb">
     <property name="geometry">
      <rect>
       <x>187</x>
       <y>336</y>
-      <width>151</width>
-      <height>101</height>
+      <width>150</width>
+      <height>100</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QSunRiseSet</class>
+   <extends>QLabel</extends>
+   <header>qsunriseset.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

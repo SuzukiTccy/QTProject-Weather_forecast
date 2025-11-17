@@ -402,6 +402,12 @@
 			null
 		],
 		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/qsunriseset.h",
+			"MU",
+			"EWIEGA46WW/moc_qsunriseset.cpp",
+			null
+		],
+		[
 			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h",
 			"MU",
 			"EWIEGA46WW/moc_weatherdata.cpp",
@@ -427,6 +433,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Weather",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/PRIVATE",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather",
+		"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Headers",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework",
 		"/Users/ccy/Applications/Qt/6.10.0/macos/mkspecs/macx-clang",
@@ -474,6 +484,11 @@
 	[
 		[
 			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/qsunriseset.cpp",
 			"MU",
 			null
 		],

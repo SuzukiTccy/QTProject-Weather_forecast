@@ -153,6 +153,7 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTime \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QUrl \
 	/Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
@@ -624,6 +625,8 @@ Weather_autogen/timestamp: \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.26.4/CMakeSystem.cmake \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/build/Qt_6_10_0_for_macOS-Debug/Weather_autogen/moc_predefs.h \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/main.cpp \
+	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/qsunriseset.cpp \
+	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/qsunriseset.h \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.cpp \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h \
 	/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/widget.cpp \

@@ -26,7 +26,8 @@ public:
         QString fileName = "/Users/ccy/Desktop/QTProject-Weather_forecast/Weather/Resources/citycode-2019-08-23.json";
         // 读取文件内容
         QFile file(fileName);
-        file.open(QIODevice::ReadOnly | QIODevice::Text);
+        bool openfile = file.open(QIODevice::ReadOnly | QIODevice::Text);
+        if(!openfile) qDebug() << "Open file failed!";
         QByteArray json = file.readAll();
         file.close();
 

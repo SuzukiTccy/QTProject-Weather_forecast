@@ -308,6 +308,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+qsunriseset.o: qsunriseset.cpp.o
+.PHONY : qsunriseset.o
+
+# target to build an object file
+qsunriseset.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/qsunriseset.cpp.o
+.PHONY : qsunriseset.cpp.o
+
+qsunriseset.i: qsunriseset.cpp.i
+.PHONY : qsunriseset.i
+
+# target to preprocess a source file
+qsunriseset.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/qsunriseset.cpp.i
+.PHONY : qsunriseset.cpp.i
+
+qsunriseset.s: qsunriseset.cpp.s
+.PHONY : qsunriseset.s
+
+# target to generate assembly for a file
+qsunriseset.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Weather.dir/build.make CMakeFiles/Weather.dir/qsunriseset.cpp.s
+.PHONY : qsunriseset.cpp.s
+
 weatherdata.o: weatherdata.cpp.o
 .PHONY : weatherdata.o
 
@@ -385,6 +409,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... qsunriseset.o"
+	@echo "... qsunriseset.i"
+	@echo "... qsunriseset.s"
 	@echo "... weatherdata.o"
 	@echo "... weatherdata.i"
 	@echo "... weatherdata.s"

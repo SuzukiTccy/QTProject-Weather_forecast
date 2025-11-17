@@ -121,6 +121,7 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QString \
+  /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTime \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QUrl \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/Headers/QVariant \
@@ -366,4 +367,5 @@
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
   /Users/ccy/Applications/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
   /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/WeatherTool.h \
+  /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/qsunriseset.h \
   /Users/ccy/Desktop/QTProject-Weather_forecast/Weather/weatherdata.h
