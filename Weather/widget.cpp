@@ -11,12 +11,12 @@ Widget::Widget(QWidget *parent)
     this->setWindowFlag(Qt::FramelessWindowHint);
 
     //右键菜单
-    this->m_pMenu = new QMenu(this);
-    this->m_pExitAct = new QAction(this);
+    this->m_pMenu = new QMenu(this); // 创建菜单
+    this->m_pExitAct = new QAction(this); // 创建菜单项
     this->m_pExitAct->setIconVisibleInMenu(true); //设置图标在菜单中可见，在macos上，默认不可见，所以这里强制打开
-    this->m_pExitAct->setText(u8"退出");
-    this->m_pExitAct->setIcon(QIcon(":/weatherIco/close.ico"));
-    this->m_pMenu->addAction(this->m_pExitAct);
+    this->m_pExitAct->setText(u8"退出"); // 设置菜单项文本
+    this->m_pExitAct->setIcon(QIcon(":/weatherIco/close.ico")); // 设置菜单项图标
+    this->m_pMenu->addAction(this->m_pExitAct); // 将菜单项添加到菜单中
 
     //连接信号和槽
     // connect(this->m_pExitAct, SIGNAL(triggered(bool)), this, SLOT(this->slot_exitApp())); // 旧语法

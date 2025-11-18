@@ -1002,7 +1002,7 @@ font: 38pt</string>
      </rect>
     </property>
     <property name="mouseTracking">
-     <bool>false</bool>
+     <bool>true</bool>
     </property>
     <property name="focusPolicy">
      <enum>Qt::FocusPolicy::ClickFocus</enum>
