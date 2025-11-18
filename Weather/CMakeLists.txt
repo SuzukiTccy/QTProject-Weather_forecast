@@ -24,6 +24,8 @@ set(PROJECT_SOURCES
         weatherdata.cpp
         qsunriseset.h
         qsunriseset.cpp
+        curvelb.h
+        curvelb.cpp
         ${TS_FILES}
 )
 

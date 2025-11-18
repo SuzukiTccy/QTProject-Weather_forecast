@@ -64,6 +64,9 @@ Widget::Widget(QWidget *parent)
 
     // 绘制日落日出图
     ui->sunRiseSetLb->setToday(this->today);
+
+    // 绘制温度曲线图
+    ui->curveLb->setForecast(this->forecast);
     
 }
 
