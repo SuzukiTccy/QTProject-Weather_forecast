@@ -68,6 +68,9 @@ private:
     Today today; // 今日天气
     QList<Forecast> forecast; // 预报天气
 
+    // 自动刷新计数器
+    QTimer *sunTimer;
+
  
 protected:
     void contextMenuEvent(QContextMenuEvent *menuEvent); // 重写右键菜单事件
@@ -80,6 +83,12 @@ protected:
     void parseJson(QByteArray bytes); // 解析json数据
     void initForecastList(); // 初始化天气预报窗口
     void setLabelContent(); // 设置天气数据
-}; 
+    void refreshDrawAndText(); // 刷新UI界面数据
+    bool eventFilter(QObject *watched, QEvent *event); // 重写事件过滤器
+    void setLabelStyle(); // 设置标签样式
+private slots:
+    void on_searchBt_clicked();
+    void on_refreshBt_clicked();
+};
 
 #endif // WIDGET_H

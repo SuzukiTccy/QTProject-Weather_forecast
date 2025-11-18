@@ -31,7 +31,7 @@ Today& Today::operator=(const QJsonObject &jsonObj){
     // 解析data
     QJsonObject dataObj = jsonObj.value("data").toObject();
     this->shidu = dataObj.value("shidu").toString();
-    this->pm25 = dataObj.value("pm25").toString();
+    this->pm25 = QString::number(dataObj.value("pm25").toDouble());
     this->quality = dataObj.value("quality").toString();
     this->temperature = dataObj.value("wendu").toString() + u8"℃";
     this->ganmao = dataObj.value("ganmao").toString();

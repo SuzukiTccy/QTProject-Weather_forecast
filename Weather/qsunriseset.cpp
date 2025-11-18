@@ -80,13 +80,13 @@ void QSunRiseSet::paintEvent(QPaintEvent *event){
         }
         else{
             // 计算起始角度和跨越角度
-            static QStringList sunSetTime = this->today.sunset.split(":");
             static QStringList sunRiseTime = this->today.sunrise.split(":");
+            static QStringList sunSetTime = this->today.sunset.split(":");
 
-            static QString sunsetHour = sunsetTime.at(0);
-            static QString sunsetMint = sunsetTime.at(1);
             static QString sunriseHour = sunRiseTime.at(0);
             static QString sunriseMint = sunRiseTime.at(1);
+            static QString sunsetHour = sunSetTime.at(0);
+            static QString sunsetMint = sunSetTime.at(1);
 
             static int sunrise = sunriseHour.toInt() * 60 + sunriseMint.toInt();
             static int sunset = sunsetHour.toInt() * 60 + sunsetMint.toInt();
