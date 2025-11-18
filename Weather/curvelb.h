@@ -19,7 +19,7 @@
 class CurveLb : public QLabel{
     /* 绘制温度曲线 */
 private:
-    QList<Forecast> forcast; // 预测数据
+    QList<Forecast> forecast; // 预测数据
 
     static const int pointX[6]; // X轴坐标
 public:

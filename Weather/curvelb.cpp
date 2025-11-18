@@ -1,13 +1,19 @@
 #include "curvelb.h"
 
 
-CurveLb::CurveLb(QWidget *parent) : QLabel(parent){}
+CurveLb::CurveLb(QWidget *parent) : QLabel(parent){
+    // 初始化forecast
+    for(int i = 0; i < 6; ++i){
+        this->forecast.append(Forecast());
+    }
+}
 
 CurveLb::~CurveLb(){}
 
-void CurveLb::setForecast(QList<Forecast> forcast){
-    for(int i = 0; i < forcast.size(); ++i){
-        this->forcast.append(forcast[i]);
+void CurveLb::setForecast(QList<Forecast> forecast){
+    this->forecast.clear();
+    for(int i = 0; i < forecast.size(); ++i){
+        this->forecast.append(forecast[i]);
     }
 }
 
@@ -25,12 +31,12 @@ void CurveLb::paintEvent(QPaintEvent *event){
 
     QString h, l;
     for(int i = 0; i < 6; ++i){
-        h = this->forcast[i].high.split(" ").at(1); // forcast[i].high = "高温 20℃"
+        h = this->forecast[i].high.split(" ").at(1); // forcast[i].high = "高温 20℃"
         h = h.left(h.length() - 1); // h = "20℃" -> "20"
         high[i] = (int)(h.toDouble());
         tempTotal += high[i];
 
-        l = this->forcast[i].low.split(" ").at(1);
+        l = this->forecast[i].low.split(" ").at(1);
         l = l.left(l.length() - 1);
         low[i] = (int)(l.toDouble());
     }

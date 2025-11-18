@@ -44,6 +44,9 @@ Widget::Widget(QWidget *parent)
     color: rgb(255,255,255);} \
     QLineEdit:hover{border-color: rgb(101, 255, 106);}");
 
+    // 初始化Forecast列表
+    this->initForecastList();
+
     // 请求天气API信息
     this->url = "http://t.weather.itboy.net/api/weather/city/";
     this->city = u8"深圳";
@@ -51,18 +54,6 @@ Widget::Widget(QWidget *parent)
     this->manager = new QNetworkAccessManager(this);
     connect(manager, &QNetworkAccessManager::finished, this, &Widget::replyFinished);
     this->getWeatherInfo(this->manager);
-
-    // 初始化Forecast列表
-    this->initForecastList();
-
-    // 更新数据
-    this->setLabelContent();
-
-    // 绘制日落日出图
-    ui->sunRiseSetLb->setToday(this->today);
-
-    // 绘制温度曲线图
-    ui->curveLb->setForecast(this->forecast);
 
     // 事件过滤器
     ui->sunRiseSetLb->installEventFilter(this); // 添加事件过滤器
@@ -77,6 +68,8 @@ Widget::Widget(QWidget *parent)
     // 搜索框回车确认
     connect(ui->cityLineEdit, &QLineEdit::returnPressed, this, &Widget::on_searchBt_clicked);
 }
+
+
 
 Widget::~Widget()
 {
@@ -151,8 +144,10 @@ void Widget::replyFinished(QNetworkReply *reply){
         "\n" + error_reason, QMessageBox::Ok);
     }
     QByteArray bytes = reply->readAll();
-    // qDebug() << bytes; // 打印JSON数据
     this->parseJson(bytes); // 解析JSON数据
+
+    // // 更新数据
+    this->updateDrawAndText();
 }
 
 void Widget::parseJson(QByteArray bytes){
@@ -169,7 +164,6 @@ void Widget::parseJson(QByteArray bytes){
         this->city = this->cityTmp;
         return;
     }
-
     this->today = jsObj;
     // 解析data中的yesterday
     QJsonObject dataObj = jsObj.value("data").toObject();
@@ -189,10 +183,6 @@ void Widget::initForecastList(){
 }
 
 void Widget::setLabelContent(){
-    // 等待网络响应
-    QEventLoop eventloop;
-    QTimer::singleShot(1000, &eventloop, &QEventLoop::quit);
-    eventloop.exec();
     // 今日数据
     ui->citydateLb->setText(this->today.date);
     ui->cityTemLb->setText(this->today.temperature);
@@ -249,7 +239,7 @@ void Widget::setLabelContent(){
 
 }
 
-void Widget::refreshDrawAndText(){
+void Widget::updateDrawAndText(){
     // 更新数据
     this->setLabelContent();
 
@@ -269,7 +259,7 @@ void Widget::on_searchBt_clicked()
     this->getWeatherInfo(this->manager);
 
     // 更新数据
-    this->refreshDrawAndText();
+    this->updateDrawAndText();
 }
 
 
@@ -278,7 +268,7 @@ void Widget::on_refreshBt_clicked()
     this->getWeatherInfo(this->manager);
 
     // 更新数据
-    this->refreshDrawAndText();
+    this->updateDrawAndText();
 }
 
 

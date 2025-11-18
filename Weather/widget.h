@@ -83,7 +83,7 @@ protected:
     void parseJson(QByteArray bytes); // 解析json数据
     void initForecastList(); // 初始化天气预报窗口
     void setLabelContent(); // 设置天气数据
-    void refreshDrawAndText(); // 刷新UI界面数据
+    void updateDrawAndText(); // 刷新UI界面数据
     bool eventFilter(QObject *watched, QEvent *event); // 重写事件过滤器
     void setLabelStyle(); // 设置标签样式
 private slots:
