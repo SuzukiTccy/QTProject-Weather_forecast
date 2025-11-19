@@ -14,10 +14,6 @@
 #include <QtNetwork/QNetworkRequest>
 #include <QMessageBox>
 #include <QTimer>
-#include <QPainter>
-#include <QPen>
-#include <QPoint>
-#include <QRect>
 #include <QDateTime>
 #include <QTime>
 

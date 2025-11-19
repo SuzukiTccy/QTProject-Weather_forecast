@@ -146,8 +146,10 @@ void Widget::replyFinished(QNetworkReply *reply){
     QByteArray bytes = reply->readAll();
     this->parseJson(bytes); // 解析JSON数据
 
-    // // 更新数据
+    // 更新数据
     this->updateDrawAndText();
+
+    reply->deleteLater(); // 重要：必须删除reply对象
 }
 
 void Widget::parseJson(QByteArray bytes){
@@ -258,8 +260,8 @@ void Widget::on_searchBt_clicked()
     this->city = ui->cityLineEdit->text();
     this->getWeatherInfo(this->manager);
 
-    // 更新数据
-    this->updateDrawAndText();
+    /* 这里不用加更新数据了，因为replyFinished函数里已经包含了 */
+    // this->updateDrawAndText();
 }
 
 
@@ -267,8 +269,8 @@ void Widget::on_refreshBt_clicked()
 {
     this->getWeatherInfo(this->manager);
 
-    // 更新数据
-    this->updateDrawAndText();
+    /* 这里不用加更新数据了，因为replyFinished函数里已经包含了 */
+    // this->updateDrawAndText();
 }
 
 
